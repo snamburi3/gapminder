@@ -14,7 +14,7 @@ def cleanup_dataframe(df):
     df = df.replace(r'__missing__value__', np.nan)
     return df 
 
-# comvert to TIDY data
+# comvert to TIDY data format
 all_data= []
 def to_tidy(df):
     for idx, row in df.iterrows():
